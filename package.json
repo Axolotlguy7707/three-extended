@@ -1,6 +1,6 @@
 {
   "name": "three-extended",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "",
   "main": "./dist/three-extended.js",
   "types": "./dist/index.d.ts",

@@ -9,8 +9,6 @@ export class ExtendedScene extends THREE.Scene {
         super();
 
         this.camera.position.z = 5;
-
-        this.create();
     }
 
     public create(): void {}

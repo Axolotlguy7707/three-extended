@@ -26,6 +26,8 @@ export class App {
 
         document.body.appendChild(this.renderer.domElement);
 
+        scene.create();
+
         this.currentScene = scene;
 
         this.renderer.setAnimationLoop(this.animate);
@@ -33,5 +35,6 @@ export class App {
 
     public switchScene(scene: ExtendedScene): void {
         this.currentScene = scene;
+        scene.create();
     }
 }
