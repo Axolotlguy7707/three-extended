@@ -15,11 +15,11 @@ export class App {
         this.rendererHeight = height;
     }
 
-    public animate(time: number): void {
+    public animate = (time: number): void => {
         this.renderer.render(this.currentScene!, this.currentScene!.camera);
 
         this.currentScene?.update(time);
-    }
+    };
 
     public start(scene: ExtendedScene): void {
         this.renderer.setSize(this.rendererWidth, this.rendererHeight);
