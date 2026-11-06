@@ -2,13 +2,14 @@
   "name": "three-extended",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/three-extended.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "vite build && tsc"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
